@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Roboto",sans-serif;
+}
+
+
+
+header{
+    margin-top: 36.1px;
+    
+}
+
+.container{
+    width: 940px;
+    margin: auto;
+}
+
+.logo{
+    padding-right: 122.4px;
+}
+
+.links{
+    padding-bottom: 30px;
+    padding-left: 0px;
+    text-decoration: none;
+}
+
+.links .pages{
+    font-size: 16px;
+    color:black;
+    padding-right: 30px ;
+    text-decoration: none;
+}
+
+/*=== wrapper ===*/
+
+.wrapper{
+    background-color:#FBDFDB;
+    border-radius: 30px;
+    height: 366px;
+    position: relative;
+
+}
+
+.wrapper img{
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+
+}
+
+.wrapper h1{
+    position: relative;
+    padding-top: 117px;
+    padding-right: 564px ;
+    padding-left: 60px ;
+    font-style: bold;
+    font-size: 32px;
+}
+
+.wrapper p{
+    padding-top: 15px;
+    padding-right: 564px ;
+    padding-left: 60px ;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+/*=== CARDS ===*/
+
+h2{
+    font-style: bold;
+    font-size: 24 px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.card{
+    cursor: pointer;
+}
+.cards{
+    max-width: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; 
+
+}
+
+.cards img{
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+.cards p{
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.cards .chef{
+    padding-top: 5px;
+    opacity: 70%;
+    font-size: 14px;
+}
+
+/*=== footer ===*/
+.footer{
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    background-color:#EEEEEE ;
+    width: 100% ;
+    height: 62px;
+
+}
+
+.footer p{
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    padding-top: 23px;
+}
+
+/*=== Sobre ===*/
+
+.about h1{
+
+    padding-top: 30px;
+    font-size: 24px;
+    font-style: bold;
+}
+
+.about h2{
+    font-size: 20px;
+}
+
+.about p{
+    color: #444444 ;
+}
+
+/*== MODAL ==*/
+
+.modal-overlay{
+    background-color: rgba(0, 0, 0, 0.7);  
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0; 
+}
+
+.modal{
+    position: relative;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    margin: 20vh auto;
+
+}
+
+.modal .close-modal{
+    border: solid 2px;
+    color: #999999;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
